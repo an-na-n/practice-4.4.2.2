@@ -8,6 +8,7 @@ import svgr from "vite-plugin-svgr";
 export default defineConfig({
   plugins: [react(), svgr()],
   assetsInclude: ["**/*.svg"],
+  base: "/practice-4.4.2.2/",
   test: {
     globals: true,
     environment: "jsdom",
